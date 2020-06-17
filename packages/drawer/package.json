@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/drawer",
+  "name": "@ailo/react-navigation-drawer",
   "description": "Drawer navigator component with animated transitions and gesturess",
   "version": "5.8.2",
   "keywords": [
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@react-native-community/bob": "^0.15.1",
-    "@react-navigation/native": "^5.5.1",
+    "@react-navigation/native": "npm:@ailo/react-navigation-native@^5.5.1",
     "@types/react": "^16.9.36",
     "@types/react-native": "^0.62.7",
     "del-cli": "^3.0.1",
@@ -59,7 +59,7 @@
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "@react-navigation/native": "^5.0.5",
+    "@react-navigation/native": "npm:@ailo/react-navigation-native@^5.0.5",
     "react": "*",
     "react-native": "*",
     "react-native-gesture-handler": ">= 1.0.0",

@@ -9,7 +9,7 @@ import * as TransitionPresets from './TransitionConfigs/TransitionPresets';
 export {
   default as createStackNavigator,
   StackNavigator,
-  Props as StackNavigatorProps
+  Props as StackNavigatorProps,
 } from './navigators/createStackNavigator';
 
 export const Assets = [
