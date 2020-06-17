@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.5.0 (2020-06-17)
+
+
+### Bug Fixes
+
+* **TabRouter:** When calculating next route name, use `initialRouteName` if the current route doesnt exist anymore ([d68ce05](https://github.com/react-navigation/react-navigation/commit/d68ce05843a11a40424a93821b4f131f97ec145e))
+* **useNavigationBuilder:** React to initialRouteName changes just like to routes changes ([ffe18bf](https://github.com/react-navigation/react-navigation/commit/ffe18bf143a0b9d869479abceeadc9ab64764ee9))
+* add licenses ([0c159db](https://github.com/react-navigation/react-navigation/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* change POP behaviour to remove elements from index only ([7a3d652](https://github.com/react-navigation/react-navigation/commit/7a3d652e847e173964a06cc9d859129ca0317861)), closes [#256](https://github.com/react-navigation/react-navigation/issues/256)
+* close drawer on back button press ([3a4c38b](https://github.com/react-navigation/react-navigation/commit/3a4c38bb723750702296f36578535cef1f9f14c1))
+* close drawer on navigate ([655a220](https://github.com/react-navigation/react-navigation/commit/655a2201370a554bb0f98372f4ac4314e00a725d))
+* don't handle action if no routes are present ([660cac3](https://github.com/react-navigation/react-navigation/commit/660cac3557bce8978812ce2750e961e7ada92d13))
+* don't lose child state when rehydrating in tab router ([5676dea](https://github.com/react-navigation/react-navigation/commit/5676dea5ac65ab9322edabd14f89d5ceeac5971d))
+* don't use action.source for stack router ([afa24c1](https://github.com/react-navigation/react-navigation/commit/afa24c110e797ef1eea5f02ac7748af098cd5cde))
+* fix backBehavior with initialRoute ([#8110](https://github.com/react-navigation/react-navigation/issues/8110)) ([420f692](https://github.com/react-navigation/react-navigation/commit/420f6926e111d32c2388c44ff0bee2b8ea238a57))
+* fix behaviour of openByDefault in drawer when focus changes ([b172b51](https://github.com/react-navigation/react-navigation/commit/b172b51f175a9f8044cb2a8e9d74a86480d8f11e))
+* fix building typescript definitions. closes [#8216](https://github.com/react-navigation/react-navigation/issues/8216) ([47a1229](https://github.com/react-navigation/react-navigation/commit/47a12298378747edd2d22e54dc1c8677f98c49b4))
+* fix links for documentation ([5bb0f40](https://github.com/react-navigation/react-navigation/commit/5bb0f405ceb5755d39a0b5b1f2e4ecee0da051bc))
+* fix path to typescript definitions ([f182315](https://github.com/react-navigation/react-navigation/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/react-navigation/react-navigation/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* handle invalid initialRouteName gracefully ([b5d9ad9](https://github.com/react-navigation/react-navigation/commit/b5d9ad900d2940e8c09fe0a0e8c4325d4ba06ec4))
+* handle partial initial state better when rehydrating ([8ed54da](https://github.com/react-navigation/react-navigation/commit/8ed54dace4e77226cb759e510be9a7e214548a9c))
+* handle popping more than available screens in stack ([68ed8a7](https://github.com/react-navigation/react-navigation/commit/68ed8a725950f39228847ab10b3dd7f3ebd2e2dc))
+* handle route names change when all routes are removed ([#86](https://github.com/react-navigation/react-navigation/issues/86)) ([1b2983e](https://github.com/react-navigation/react-navigation/commit/1b2983eaa9e3ec6487d0fcdc661424b312247656))
+* implement canGoBack for tab router ([#51](https://github.com/react-navigation/react-navigation/issues/51)) ([2b8f2ed](https://github.com/react-navigation/react-navigation/commit/2b8f2edfd1fc5a67a3c42caf5dba53cea949ca92))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/react-navigation/react-navigation/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/react-navigation/react-navigation/issues/265)
+* merge initial params on push ([11efb06](https://github.com/react-navigation/react-navigation/commit/11efb066429a3fc8b7e8e48d897286208d9a5449))
+* merge initial params on replace ([80629bf](https://github.com/react-navigation/react-navigation/commit/80629bf30baf8f17620e6d3127e00376182af074))
+* preserve focused route in tab on changing screens list ([adbeb29](https://github.com/react-navigation/react-navigation/commit/adbeb292f522be8d7a58dd3f84e560a6d83d01a8))
+* properly handle pop action from stack ([61dce7a](https://github.com/react-navigation/react-navigation/commit/61dce7ae1b71da71389a0ce035dfc7b25d803ad2))
+* separate normal exports and type exports ([303f0b7](https://github.com/react-navigation/react-navigation/commit/303f0b78a5ab717b2d606cd9c8a22f3dae051f0f))
+* tweak error message for navigate ([c8ea419](https://github.com/react-navigation/react-navigation/commit/c8ea4199f4b19a58d5e409cfcc96e587fe354a9a))
+* use index of first route when rehydrating tab state ([7635373](https://github.com/react-navigation/react-navigation/commit/7635373366c03ec6f703554c402d4ededf7aa48e))
+
+
+### Features
+
+* add a simple stack and material tabs integration ([#39](https://github.com/react-navigation/react-navigation/issues/39)) ([e0bee10](https://github.com/react-navigation/react-navigation/commit/e0bee10e6b6c802ce38f5334206b61bb8124f7ad))
+* add a target key to actions and various fixes ([747ce66](https://github.com/react-navigation/react-navigation/commit/747ce6692749f886cd4663895bafbbc4777e6d63))
+* add canGoBack ([#50](https://github.com/react-navigation/react-navigation/issues/50)) ([e9da86e](https://github.com/react-navigation/react-navigation/commit/e9da86e42fbe8ac98d90b3f2a7d1efb66f2e2d1e))
+* add drawer navigator integration ([#43](https://github.com/react-navigation/react-navigation/issues/43)) ([d02277b](https://github.com/react-navigation/react-navigation/commit/d02277b30d64403f1a9f58b8ce91d71c3383be72))
+* add hook for deep link support ([35987ae](https://github.com/react-navigation/react-navigation/commit/35987ae3699b44cb47b39ea0c050b4074e77aad6))
+* add keys to routes missing keys during reset ([813a590](https://github.com/react-navigation/react-navigation/commit/813a5903b5f44506b9097538ed85229e565b855e))
+* add openByDefault option to drawer ([36689e2](https://github.com/react-navigation/react-navigation/commit/36689e24c21b474692bb7ecd0b901c8afbbe9a20))
+* handle navigating with both with both key and name ([#83](https://github.com/react-navigation/react-navigation/issues/83)) ([6b75cba](https://github.com/react-navigation/react-navigation/commit/6b75cbaaa6b67493638c460e56f71c4da23c606c))
+* integrate reanimated based stack ([#42](https://github.com/react-navigation/react-navigation/issues/42)) ([dcf57c0](https://github.com/react-navigation/react-navigation/commit/dcf57c095c493223448bb9c5a302a2140af5562b))
+* make replace bubble up ([ba1f405](https://github.com/react-navigation/react-navigation/commit/ba1f4051299ad86001592b8d3601c16fece159df))
+* make reset bubble up ([09f6808](https://github.com/react-navigation/react-navigation/commit/09f6808d7d43c70b2c502151f9f20fad03972886))
+
+
+
+
+
 ## [5.4.7](https://github.com/react-navigation/react-navigation/tree/main/packages/routers/compare/@react-navigation/routers@5.4.6...@react-navigation/routers@5.4.7) (2020-05-23)
 
 **Note:** Version bump only for package @react-navigation/routers

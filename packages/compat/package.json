@@ -1,7 +1,7 @@
 {
   "name": "@ailo/react-navigation-compat",
   "description": "Compatibility layer to write navigator definitions in static configuration format",
-  "version": "5.1.26",
+  "version": "5.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",

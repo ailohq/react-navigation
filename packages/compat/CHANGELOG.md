@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.2.0 (2020-06-17)
+
+
+### Bug Fixes
+
+* add licenses ([0c159db](https://github.com/react-navigation/react-navigation/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* add NavigationEvents ([d69b0db](https://github.com/react-navigation/react-navigation/commit/d69b0db60455b8789276822ba73f5349db8842d7)), closes [/github.com/react-navigation/react-navigation/issues/6821#issuecomment-588268512](https://github.com//github.com/react-navigation/react-navigation/issues/6821/issues/issuecomment-588268512)
+* drop isFirstRouteInParent method ([#145](https://github.com/react-navigation/react-navigation/issues/145)) ([3a77107](https://github.com/react-navigation/react-navigation/commit/3a77107968410b77708392a146e25c33998ee60c))
+* ensure re-render on isFirstRouteInParent change in compat layer ([14ae373](https://github.com/react-navigation/react-navigation/commit/14ae3738cf46088e082bd1c60b9dcc6dacacd1bf))
+* fix building typescript definitions. closes [#8216](https://github.com/react-navigation/react-navigation/issues/8216) ([47a1229](https://github.com/react-navigation/react-navigation/commit/47a12298378747edd2d22e54dc1c8677f98c49b4))
+* fix dispatching compat actions ([88a560a](https://github.com/react-navigation/react-navigation/commit/88a560aacba2256baee9e17c1803c5c22b1a8834))
+* fix typo in navigationOptions ([8cbb201](https://github.com/react-navigation/react-navigation/commit/8cbb201f1a7fb90e45a078df6bc42ce4771cc6a6))
+* improvements to the compat layer ([2a76dc4](https://github.com/react-navigation/react-navigation/commit/2a76dc4d3c4cc0365a3afcff6ac321145efed026))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/react-navigation/react-navigation/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/react-navigation/react-navigation/issues/265)
+* provide navigation prop in header ([30e510d](https://github.com/react-navigation/react-navigation/commit/30e510d123e2fd494103efe47d322689c55937fd))
+* spread parent params to children in compat navigator ([24febf6](https://github.com/react-navigation/react-navigation/commit/24febf6ea99be2e5f22005fdd2a82136d647255c)), closes [#6785](https://github.com/react-navigation/react-navigation/issues/6785)
+* support legacy goBack method ([d83d3de](https://github.com/react-navigation/react-navigation/commit/d83d3de6975ce7784dd3c3bdfe7cd7c47bb4dd7b))
+* throw when assigning or accessing the router property in compat ([944fa35](https://github.com/react-navigation/react-navigation/commit/944fa35ed4778ebc7fa7cd50092719cbd5bf3caf))
+* throw when wrapping a compat navigatofor compat ([8920da6](https://github.com/react-navigation/react-navigation/commit/8920da68a75856a735c31685e1697a45db45d1b1))
+* use 1 as default in compatibility pop action ([4408117](https://github.com/react-navigation/react-navigation/commit/44081172d440c713ad3543a2d5e1e18ebc8f72a4))
+
+
+### Features
+
+* add ability add listeners with listeners prop ([1624108](https://github.com/react-navigation/react-navigation/commit/162410843c4f175ae107756de1c3af04d1d47aa7)), closes [#6756](https://github.com/react-navigation/react-navigation/issues/6756)
+* add createSwitchNavigator ([ff50282](https://github.com/react-navigation/react-navigation/commit/ff502820c783c525c70ae327b6271f7c8e592fec))
+* add withNavigation and withNavigationFocus ([114a5dc](https://github.com/react-navigation/react-navigation/commit/114a5dc888eedd4f56ca17f7aba4772ac6b5f774))
+* compatibility layer ([e0f28a4](https://github.com/react-navigation/react-navigation/commit/e0f28a432da293a401d50228fbaec44417e740df))
+* initial version of native stack ([#102](https://github.com/react-navigation/react-navigation/issues/102)) ([ba3f718](https://github.com/react-navigation/react-navigation/commit/ba3f718ab3868ddd5754b22945a867fdf7e93b7f))
+
+
+
+
+
 ## [5.1.26](https://github.com/react-navigation/react-navigation/tree/main/packages/compat/compare/@react-navigation/compat@5.1.25...@react-navigation/compat@5.1.26) (2020-06-06)
 
 **Note:** Version bump only for package @react-navigation/compat

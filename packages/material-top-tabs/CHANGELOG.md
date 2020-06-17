@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.3.0 (2020-06-17)
+
+
+### Bug Fixes
+
+* add licenses ([0c159db](https://github.com/react-navigation/react-navigation/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* allow making params optional. fixes [#80](https://github.com/react-navigation/react-navigation/issues/80) ([a9d4813](https://github.com/react-navigation/react-navigation/commit/a9d4813b472f040381b8e2e3e04562b2427f6f02))
+* fix backgroundColor in sceneContainerStyle overriden by theme ([ebd145a](https://github.com/react-navigation/react-navigation/commit/ebd145a09d80f119070a14a8d4940b5757b5e7fb)), closes [#215](https://github.com/react-navigation/react-navigation/issues/215)
+* fix building typescript definitions. closes [#8216](https://github.com/react-navigation/react-navigation/issues/8216) ([47a1229](https://github.com/react-navigation/react-navigation/commit/47a12298378747edd2d22e54dc1c8677f98c49b4))
+* fix path to typescript definitions ([f182315](https://github.com/react-navigation/react-navigation/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/react-navigation/react-navigation/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/react-navigation/react-navigation/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/react-navigation/react-navigation/issues/265)
+* mark type exports for all packages ([b71de6c](https://github.com/react-navigation/react-navigation/commit/b71de6cc799143f1d0e8a0cfcc34f0a2381f9840))
+* wrap navigators in gesture handler root ([41a5e1a](https://github.com/react-navigation/react-navigation/commit/41a5e1a385aa5180abc3992a4c67077c37b998b9))
+
+
+### Features
+
+* add a simple stack and material tabs integration ([#39](https://github.com/react-navigation/react-navigation/issues/39)) ([e0bee10](https://github.com/react-navigation/react-navigation/commit/e0bee10e6b6c802ce38f5334206b61bb8124f7ad))
+* add ability add listeners with listeners prop ([1624108](https://github.com/react-navigation/react-navigation/commit/162410843c4f175ae107756de1c3af04d1d47aa7)), closes [#6756](https://github.com/react-navigation/react-navigation/issues/6756)
+* add custom theme support ([#211](https://github.com/react-navigation/react-navigation/issues/211)) ([00fc616](https://github.com/react-navigation/react-navigation/commit/00fc616de0572bade8aa85052cdc8290360b1d7f))
+* add generic type aliases for screen props ([bea14aa](https://github.com/react-navigation/react-navigation/commit/bea14aa26fd5cbfebc7973733c5cf1f44fd323aa)), closes [#7971](https://github.com/react-navigation/react-navigation/issues/7971)
+* add hook to scroll to top on tab press ([9e1104c](https://github.com/react-navigation/react-navigation/commit/9e1104c31ff4b63099d38f4f2b5b7e33d8e82ce7))
+* add integration for paper's bottom navigation ([f3b6d1f](https://github.com/react-navigation/react-navigation/commit/f3b6d1f18db86138d62b736bbe3d3cac39b9b79e))
+* add support for pager component ([dcc5f99](https://github.com/react-navigation/react-navigation/commit/dcc5f99ecd495ad1903c9e99884e0d4e9b3994f1))
+* export some more type aliases ([8b78d61](https://github.com/react-navigation/react-navigation/commit/8b78d617c05cddef7161ab5519008543adc1bd46))
+* export underlying views used to build navigators ([#191](https://github.com/react-navigation/react-navigation/issues/191)) ([d618ab3](https://github.com/react-navigation/react-navigation/commit/d618ab382ecc5eccbcd5faa89e76f9ed2d75f405))
+* initial version of native stack ([#102](https://github.com/react-navigation/react-navigation/issues/102)) ([ba3f718](https://github.com/react-navigation/react-navigation/commit/ba3f718ab3868ddd5754b22945a867fdf7e93b7f))
+* integrate reanimated based stack ([#42](https://github.com/react-navigation/react-navigation/issues/42)) ([dcf57c0](https://github.com/react-navigation/react-navigation/commit/dcf57c095c493223448bb9c5a302a2140af5562b))
+* let the navigator specify if default can be prevented ([da67e13](https://github.com/react-navigation/react-navigation/commit/da67e134d2157201360427d3c10da24f24cae7aa))
+
+
+
+
+
 ## [5.2.10](https://github.com/react-navigation/react-navigation/tree/main/packages/material-top-tabs/compare/@react-navigation/material-top-tabs@5.2.9...@react-navigation/material-top-tabs@5.2.10) (2020-06-06)
 
 **Note:** Version bump only for package @react-navigation/material-top-tabs

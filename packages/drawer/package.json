@@ -1,7 +1,7 @@
 {
   "name": "@ailo/react-navigation-drawer",
   "description": "Drawer navigator component with animated transitions and gesturess",
-  "version": "5.8.2",
+  "version": "5.9.0",
   "keywords": [
     "react-native-component",
     "react-component",

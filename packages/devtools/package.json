@@ -1,7 +1,7 @@
 {
   "name": "@ailo/react-navigation-devtools",
   "description": "Developer tools for React Navigation",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "keywords": [
     "react",
     "react-native",
