@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/native",
+  "name": "@ailo/react-navigation-native",
   "description": "React Native integration for React Navigation",
   "version": "5.5.1",
   "keywords": [

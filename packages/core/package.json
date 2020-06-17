@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/core",
+  "name": "@ailo/react-navigation-core",
   "description": "Core utilities for building navigators",
   "version": "5.10.0",
   "keywords": [

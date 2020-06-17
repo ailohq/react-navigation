@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/bottom-tabs",
+  "name": "@ailo/react-navigation-bottom-tabs",
   "description": "Bottom tab navigator following iOS design guidelines",
   "version": "5.5.2",
   "keywords": [

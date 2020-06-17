@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/material-bottom-tabs",
+  "name": "@ailo/react-navigation-material-bottom-tabs",
   "description": "Integration for bottom navigation component from react-native-paper",
   "version": "5.2.10",
   "keywords": [
